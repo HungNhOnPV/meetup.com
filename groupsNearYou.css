@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.groups {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	width: 200px;
+	height: 270px;
+	background-color: #EEE;
+}
+
+.groups:hover {
+	transform: translate(0, -1px);
+	border: 1px solid #b9b9b9;
+}
+
+.groups .groups-image {
+	width: 200px;
+	height: 150px;
+	background-image: url(./image.jpg);
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.groups .groups-text {
+	padding-left: 10px;
+}
+
+.groups .groups-text .groups-text-top {
+	font-size: 1rem;
+	color: #2b2b2b;
+	padding: 10px 0;
+}
+
+.groups .groups-text .groups-text-mid-1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4rem;
+	color: #000;
+}
+
+.groups .groups-text .groups-text-mid-2 {
+	font-size: 0.9rem;
+}
+
+.groups .groups-text .groups-text-bottom {
+	font-size: 0.9rem;
+	padding: 10px 0;
+	color: #545454;
+}
