@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.discover-groups {
+	height: 180px;
+	width: 500px;
+	display: flex;
+	background-color: #0f1621;
+	color: #FFF;
+	padding-top: 20px;
+}
+
+.discover-groups .discover-groups-icon {
+	width: 70px;
+	margin: 40px 20px 0 50px;
+}
+
+.discover-groups .discover-groups-icon .fa-search {
+	transform: scale(5);
+	color: #0087f3;
+}
+
+.discover-groups .discover-groups-text .discover-groups-text-top {
+	font-size: 2rem;
+	margin: 10px 0;
+}
+
+.discover-groups .discover-groups-text .discover-groups-text-mid {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+.discover-groups .discover-groups-text .discover-groups-text-bottom {
+	display: flex;
+	font-size: 1rem;
+	color: #0087f3;
+}
+
+.discover-groups .discover-groups-text .discover-groups-text-bottom-right {
+	font-size: 1rem;
+	color: #0087f3;
+	position: relative;
+	left: 20px;
+}
