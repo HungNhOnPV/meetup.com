@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.categories {
+	width: 200px;
+	height: 180px;
+}
+
+.categories .categories-image {
+	width: 200px;
+	height: 150px;
+	background-image: url(./image.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+.categories .categories-text {
+	font-size: 1rem;
+	padding: 10px 0 20px 0;
+}
