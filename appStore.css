@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.app-store {
+	display: flex;
+	width: 150px;
+	height: 50px;
+	background-color: #000;
+	color: #FFF;
+	border-radius: 5px;
+	border: 1px solid #a0a0a0;
+}
+
+.app-store .app-store-icon {
+	margin: 15px 15px;
+}
+
+.app-store .app-store-icon .fa-apple{
+	transform: scale(2);
+}
+
+.app-store .app-store-text .app-store-text-top {
+	font-size: 0.75rem;
+	padding: 5px;
+}
+
+.app-store .app-store-text .app-store-text-bottom {
+	font-size: 1.3rem;
+	padding: 0 5px;
+}
