@@ -1,0 +1,47 @@
+.get-the-app {
+	width: 100%;																																																																																																																																																																																																																																																												
+	height: 300px;
+	position: relative;
+}
+
+.get-the-app .get-the-app-text {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 80px;
+	left: 300px;
+}
+
+.get-the-app .get-the-app-text .get-the-app-text-top {
+	font-size: 2rem;
+	margin-bottom: 5px;
+}
+
+.get-the-app .get-the-app-text .get-the-app-text-bottom {
+	display: flex;
+	color: #00a2c7;
+	font-size: 1rem;
+	position: relative;
+}
+
+.get-the-app .get-the-app-text .get-the-app-text-bottom .get-the-app-text-bottom-icon {
+	position: absolute;
+	left: 100px;
+}
+
+.get-the-app .get-the-app-icon {
+	display: flex;
+	margin-top: 50px;
+}
+
+.get-the-app .get-the-app-image {
+	background-image: url(./meetup-1.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	left: 600px;
+	top: -50px;
+	width: 220px;
+	height: 270px;
+	flex-grow: 1;
+}

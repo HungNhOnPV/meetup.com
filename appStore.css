@@ -6,12 +6,13 @@ body {
 
 .app-store {
 	display: flex;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	background-color: #000;
 	color: #FFF;
 	border-radius: 5px;
 	border: 1px solid #a0a0a0;
+	margin-right: 20px;
 }
 
 .app-store .app-store-icon {

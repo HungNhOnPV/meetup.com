@@ -9,10 +9,10 @@ body {
 .video {
 	width: 100%;
 	height: 400px;
-	background-image: url(./image-video.jpg);
+	background-image: url(./meetup-2.jpg);
 	background-size: cover;
 	background-position: center;
-	color: #000;
+	color: #FFF;
 	position: relative;
 	display: flex;
 	justify-content: center;
